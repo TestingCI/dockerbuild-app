@@ -4,6 +4,7 @@ script:
 archive: true
 
 env:
+ - secure: B/q4YulraUSMRLn/WSCYujRZ4RbCoGFEXHe5SVTQoxqglTGl7wAM5Cbfq2DaOR19AooOwy4L+rZ903+Z+0kmziFf8HenFDUmfA3/0xKT1yXmCjXYqmXi72WeQ5CZrdKblfxxCxiSLfqaTIf1N1/0hHbfvNxLnB433+BeDfrtCzMsLKl0cvYfEVo+UkhvJOMUgIvQ7Mue7d3EAGQff6NUqRCNLiJxVD5dJv6OUB866RxOh6R669Ro1hI3wNAhlIbdZAjoOCITN+1fDoXHyHI2ymf4NybGyxjMFkAePw3M4DuzdnYi7fgTJ5mfKVy4j5xgh4O/MsgmuaMz7xYTLTiU/w==
  - secure: fhEEbrQKj+PLFwZnTsWHo8NyfxvvWaC4BkgeNC95Wy840i+ojgB9elUknj+UvfHVbqJF7RITOgVrNH1tC3wdutUCNSB40rjBR6Bk571Bzto0BsRoSQk+fZCiQD0yIS9wBpfvreuGF1fMcFmMAhh9qV4r7y6udpL+T/yzb+9MTnIFLzD/8aIUU+RIiW6MX7vlewzINo5W3jf76elhgdbqNYIeVx161FU08B+cxwRebfgWySHwMLx9Ds6VBqvF0GMp4OO485fPCfw11XUQGYRfPt+jNJvBJ8YtuyIeUtVZ+pkwDyK5+nhTpoQafcr5hpJUUy+OPYVbQ+N4Y6gMVVm/Dg==
  
-after_script: echo $prod
+after_script: echo $prod and $Key1
